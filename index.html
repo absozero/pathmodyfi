@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <link href="./style.css" rel="stylesheet">
+    <title>Hello World!</title>
+  </head>
+  <body>
+    <h1>Hello World!</h1>
+    This is a preview of an app that will be made on top of the electron system, running on chromium.
+    Hopefully it gets better with time.
+    <p>I know that electron is basically just a run down version of chromium bundled to make standalone web apps,
+      meaning wherever chromium can run, electron can too.
+    </p>
+    <h2>
+
+      Electro is an application, at first made to learn electron. The actual purpose comes later.
+    </h2>
+
+    
+
+    <!-- You can also require other files to run in this process -->
+    <script src="./renderer.js"></script>
+  </body>
+</html>
