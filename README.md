@@ -11,4 +11,6 @@ Download the binaries from the releases tab according to your specific system an
 
 ## License
 
+This project uses the MIT liscense.
+
 [See the license file](LICENSE.md)
