@@ -2,6 +2,10 @@
 const {app, BrowserWindow} = require('electron')
 const path = require('path')
 
+const electron = require('electron');
+
+const url = require('url');
+
 function createWindow () {
   // Create the browser window.
   const mainWindow = new BrowserWindow({
