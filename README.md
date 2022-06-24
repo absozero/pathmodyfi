@@ -6,9 +6,6 @@ A quick n' easy way to manage environment variables and system PATH with the sam
 
 Download the binaries from the releases tab according to your specific system and then run them.
 
-## Resources for Learning Electron
-
-
 ## License
 
 This project uses the MIT liscense.
